@@ -1,0 +1,49 @@
+.document {
+  margin: 0;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+  flex-wrap: wrap;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  outline: 1px dashed black;
+}
+
+.card {
+  align-items: center;
+  background: #dddddd;
+  display: flex;
+  margin-right: 10mm;
+  margin-bottom: 10mm;
+  padding: 1em;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 5px;
+  outline: 1px dashed #aaa;
+  border: 1px solid black;
+}
+
+.card .card-section-name {
+  font-weight: bold;
+  width: 100%;
+}
+
+.card .card-section-type {
+  width: 100%;
+}
+
+.card .card-section-value {
+  width: 100%;
+  font-size: 2em;
+}
+
+.card .card-section-text {
+  width: 100%;
+}

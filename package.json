@@ -1,0 +1,47 @@
+{
+  "name": "artifice-ccg",
+  "version": "1.1.1",
+  "description": "Artifice CCG Game Cards",
+  "main": "index.js",
+  "scripts": {
+    "format": "mcclowes-scripts format",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node --harmony scripts/createCards",
+    "watch": "node --harmony scripts/createCards"
+  },
+  "babel": {
+    "presets": [
+      "mcclowes"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "mcclowes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hammerheim-game/hammerheim-rules.git"
+  },
+  "keywords": [
+    "hammerheim",
+    "rules",
+    "mordheim",
+    "warhammer",
+    "tabletop",
+    "game"
+  ],
+  "author": "Max Clayton Clowes <maxcc@me.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hammerheim-game/hammerheim-rules/issues"
+  },
+  "homepage": "https://github.com/hammerheim-game/hammerheim-rules#readme",
+  "dependencies": {
+    "ccg-card-generator": "^1.1.1",
+    "html-pdf-chrome": "^0.5.0",
+    "marked": "^0.4.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "mcclowes-scripts": "^0.3.6"
+  }
+}
