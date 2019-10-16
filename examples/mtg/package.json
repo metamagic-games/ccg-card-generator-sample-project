@@ -1,0 +1,10 @@
+{
+  "name": "mtg-example",
+  "version": "1.0.0",
+  "description": "Easily generate MTG cards",
+  "main": "scripts/index.js",
+  "scripts": {
+    "build": "node --harmony ./scripts/createCards"
+  },
+  "dependencies": {}
+}

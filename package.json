@@ -1,8 +1,8 @@
 {
-  "name": "artifice-ccg",
+  "name": "ccg-card-generator-sample-project",
   "version": "1.1.1",
-  "description": "Artifice CCG Game Cards",
-  "main": "index.js",
+  "description": "Easily generate pages of trading cards from JSON input",
+  "main": "scripts/createCards.js",
   "scripts": {
     "format": "mcclowes-scripts format",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,24 +19,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hammerheim-game/hammerheim-rules.git"
+    "url": "git+https://github.com/paragon-games/ccg-card-generator-sample-project.git"
   },
   "keywords": [
-    "hammerheim",
-    "rules",
-    "mordheim",
-    "warhammer",
-    "tabletop",
-    "game"
+    "ccg",
+    "tcg",
+    "generator",
+    "sample",
+    "project"
   ],
   "author": "Max Clayton Clowes <maxcc@me.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hammerheim-game/hammerheim-rules/issues"
+    "url": "https://github.com/paragon-games/ccg-card-generator-sample-project/issues"
   },
-  "homepage": "https://github.com/hammerheim-game/hammerheim-rules#readme",
+  "homepage": "https://github.com/paragon-games/ccg-card-generator-sample-project#readme",
   "dependencies": {
-    "ccg-card-generator": "^1.1.1",
+    "ccg-card-generator": "^1.2.0",
     "html-pdf-chrome": "^0.5.0",
     "marked": "^0.4.0",
     "path": "^0.12.7"
