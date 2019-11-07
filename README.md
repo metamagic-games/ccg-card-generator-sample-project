@@ -9,3 +9,7 @@ With this sample project you can quickly generate printable pages of trading car
 3. Change create the `target` and `destination` paths in `createCards.js` (if necessary)
 4. `npm install`
 5. `npm run build`
+
+## Contributing
+
+If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are welcome!
