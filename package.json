@@ -41,6 +41,6 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "mcclowes-scripts": "^0.3.6"
+    "mcclowes-scripts": "^0.11.1"
   }
 }
