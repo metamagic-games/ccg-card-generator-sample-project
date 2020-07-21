@@ -113,59 +113,57 @@ table {
 .frame-art,
 .frame-type-line {
   box-shadow: 
-      0 0 0 2px #171314,
-      0 0 0 5px #26714A,
-      -3px 3px 2px 5px #171314;
+    0 0 0 2px #171314,
+    0 0 0 5px #26714A,
+    -3px 3px 2px 5px #171314;
 
   margin-bottom: 7px;
 }
 
 .frame-text-box {
-    box-shadow: 
-        0 0 0 5px #26714A,
-        -3px 3px 2px 5px #171314;
+  box-shadow: 
+    0 0 0 5px #26714A,
+    -3px 3px 2px 5px #171314;
 }
 
 /*
-    ----------------------
-    ----------------------
-            OVERFLOW
-    ----------------------
-    ----------------------
+  ----------------------
+  ----------------------
+      OVERFLOW
+  ----------------------
+  ----------------------
 */
 .frame-header,
 .frame-type-line,
 .frame-text-box {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 
 /*
   ----------------------------------------
   ----------------------------------------
-            CARD FRAME
+      CARD FRAME
   ----------------------------------------
   ----------------------------------------
 */
 .card-frame {
-    z-index: 1;
-    position: relative;
-    height: 108%;
-    max-width: 97%;
-    left: 1%;
-    top: 0.5%;
-    left: 1.2%;
-    display: flex;
-    flex-direction: column;
+  z-index: 1;
+  position: relative;
+  height: 108%;
+  max-width: 97%;
+  left: 1%;
+  top: 0.5%;
+  left: 1.2%;
+  display: flex;
+  flex-direction: column;
 }
-
-
 
 .frame-header,
 .frame-type-line {
   background: 
-      linear-gradient( 0deg, rgba(201, 216, 201, .3), rgba(201, 216, 209, .3) ), 
-      url(https://image.ibb.co/jKByZn/tile_bg_1.jpg);     
+    linear-gradient( 0deg, rgba(201, 216, 201, .3), rgba(201, 216, 209, .3) ), 
+    url(https://image.ibb.co/jKByZn/tile_bg_1.jpg);     
   display: flex;
   margin-top: 4%;
   margin-left: 2%;
@@ -185,14 +183,14 @@ table {
 }
 
 #mana-icon {
-    font-size: 1.4em;
-    background: #ADD3AC;
-    border-radius: 50%;
-    box-sizing: border-box;
-    box-shadow: -0.05em 0.12em 0px 0 black;
-    margin-right: 5px;
-    height: 20px;
-    align-self: center;
+  font-size: 1.4em;
+  background: #ADD3AC;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: -0.05em 0.12em 0px 0 black;
+  margin-right: 5px;
+  height: 20px;
+  align-self: center;
 }
 
 .frame-art {
@@ -202,63 +200,63 @@ table {
 }
 
 #set-icon {
-    height: 9%;
-    width: 6%;
-    overflow: hidden;
-    margin-right: 10px;
-    align-self: center;
+  height: 9%;
+  width: 6%;
+  overflow: hidden;
+  margin-right: 10px;
+  align-self: center;
 } 
 
 .frame-type-line {
-    margin-top: 0;
+  margin-top: 0;
 } 
 
 .frame-text-box {
-    margin: 0 10px;
-    background: #d3ded6;
-    background-image: url(https://image.ibb.co/dFcNx7/tile_bg_2.jpg);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;    
-    padding: 50px 6px;
-    font-size: 50%;
+  margin: 0 10px;
+  background: #d3ded6;
+  background-image: url(https://image.ibb.co/dFcNx7/tile_bg_2.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;    
+  padding: 50px 6px;
+  font-size: 50%;
 }
 
 .flavour-text {
-    font-style: italic;
-    padding: 10px 0;
+  font-style: italic;
+  padding: 10px 0;
 }
 
 p {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .ftb-inner-margin {
-    margin: 5px 1px;
+  margin: 5px 1px;
 }
 
 .frame-bottom-info {
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    margin: 5px 15px 0 15px; 
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 15px 0 15px; 
 }
 
 /* frame bottom indent */
 
 .fbi-left {
-    flex: 1;
+  flex: 1;
 } 
 
 .fbi-left p:first-of-type {
-    margin-bottom: 1px;
+  margin-bottom: 1px;
 }
 
 .fbi-left,
 .fbi-right {
-    font-size: 10px;
-    position: relative;
-    top: 6px;
+  font-size: 10px;
+  position: relative;
+  top: 6px;
 }
 
 .fbi-center {
@@ -271,21 +269,18 @@ p {
   background: lightgray;
   background-image: url(https://image.ibb.co/jyq34n/holofoil_texture_2.jpg);
   box-shadow: 
-      0 0 0 4px #171314;
+    0 0 0 4px #171314;
 }
 
 .inner-margins {
-    margin: 0 10px;
+  margin: 0 10px;
 } */  
 
-
-
-
 .fbi-right {
-    flex: 1;
-    text-align: right;
+  flex: 1;
+  text-align: right;
 }
  .frame-bottom-info img {
-    overflow: hidden;
-    max-width: 10px;
+  overflow: hidden;
+  max-width: 10px;
 }

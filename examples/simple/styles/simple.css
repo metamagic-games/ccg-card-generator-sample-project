@@ -1,0 +1,12 @@
+.card-background {
+  background: #eeeeee;
+}
+
+.card-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.card-text {
+  font-style: italic;
+}

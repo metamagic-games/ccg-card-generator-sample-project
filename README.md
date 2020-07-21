@@ -5,8 +5,8 @@ With this sample project you can quickly generate printable pages of trading car
 ## Getting started
 
 1. Clone this repo
-2. Edit and rename `cards.js`, or add your own json structured collection of cards
-3. Change create the `target` and `destination` paths in `createCards.js` (if necessary)
+2. Edit `cards.js`, or add your own json structured collection of cards
+3. Set the `target` and `destination` paths in `createCards.js` (if you've renamed the input file or want to change the name of the output pdf)
 4. `npm install`
 5. `npm run build`
 
