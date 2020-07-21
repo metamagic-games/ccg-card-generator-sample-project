@@ -36,7 +36,7 @@
   "dependencies": {
     "ccg-card-generator": "^1.2.0",
     "lodash": "^4.17.19",
-    "marked": "^0.4.0",
+    "marked": "^1.1.1",
     "path": "^0.12.7"
   },
   "devDependencies": {
