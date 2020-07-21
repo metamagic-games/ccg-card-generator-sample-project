@@ -1,12 +1,48 @@
-.card-background {
-  background: #eeeeee;
+.document {
+  margin: 0;
 }
 
-.card-name {
+.pages {
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+  flex-wrap: wrap;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  outline: 1px dashed black;
+}
+
+.card {
+  align-items: center;
+  background: #dddddd;
+  display: flex;
+  margin-right: 10mm;
+  margin-bottom: 10mm;
+  padding: 1em;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 5px;
+  outline: 1px dashed #aaa;
+  border: 1px solid black;
+  font-family: helvetica;
+}
+
+.card .card-background {
+  background: #eeeeee;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.card .card-name {
   font-size: 1.2em;
   font-weight: bold;
+  margin-bottom: 0.5em;
 }
 
-.card-text {
+.card .card-text {
   font-style: italic;
 }
