@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/paragon-games/ccg-card-generator-sample-project#readme",
   "dependencies": {
-    "ccg-card-generator": "^1.2.0",
+    "ccg-card-generator": "^1.4.1",
     "lodash": "^4.17.19",
     "marked": "^0.4.0",
     "path": "^0.12.7"
